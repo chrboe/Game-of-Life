@@ -13,7 +13,8 @@ namespace gameoflife
             Console.SetBufferSize(80, 41);
 
             string[,] feld = new string[80, 40];
-            string towrite = "*";
+            string towrite = "";
+            string version = "0.0.2";
             int[,] nachbarn = new int[80, 40];
             bool auswahl = true;
             bool stepbystep = false;
@@ -24,7 +25,8 @@ namespace gameoflife
             int auswahly = 0;
             int people = 0;
             ConsoleKeyInfo key = new ConsoleKeyInfo();
-            
+
+            Console.Title = "Game of Life Version " + version;
 
             for (int y = 0; y <= 39; y++)
             {
@@ -72,7 +74,8 @@ namespace gameoflife
             Console.WriteLine("Mit den Pfeiltasten steuern sie den Cursor.");
             Console.WriteLine("Drücken sie die Leertaste zum Platzieren und die Backspace Taste zum Löschen.");
             Console.WriteLine("Mit S starten sie die Schritt-für-Schritt Wiedergabe.");
-            Console.WriteLine("Mit Escape löschen sie alle Menschen.");
+            Console.WriteLine("Mit Escape löschen sie alle Menschen, mit A bevölkern sie die ganze Erde.");
+            Console.WriteLine("Die Nummern-Tasten fügen Patterns ein.");
             Console.WriteLine();
             Console.WriteLine("Um die Simulation zu starten, drücken sie nach dem Platzieren Enter.");
             Console.ReadLine();
@@ -117,9 +120,7 @@ namespace gameoflife
                         for (int y = 0; y <= 39; y++)
                         {
                             for (int x = 0; x <= 79; x++)
-                            {
                                 feld[x, y] = " ";
-                            }
                         }
                         break;
                     case ConsoleKey.S:
@@ -130,6 +131,13 @@ namespace gameoflife
                         feld[39, 20] = towrite;
                         feld[40, 20] = towrite;
                         feld[41, 20] = towrite;
+                        break;
+                    case ConsoleKey.A:
+                        for (int y = 0; y <= 39; y++)
+                        {
+                            for (int x = 0; x <= 79; x++)
+                                feld[x, y] = "*";
+                        }
                         break;
                 }
                 Console.Clear();
@@ -179,6 +187,7 @@ namespace gameoflife
                         }
                     }
                 }
+                Console.SetCursorPosition(0, 0);
                 for (int y = 0; y <= 39; y++)
                 {
                     for (int x = 0; x <= 79; x++)
@@ -187,8 +196,6 @@ namespace gameoflife
                     }
 
                 }
-                Console.SetCursorPosition(0, 0);
-                Console.WriteLine("Bevölkerung: " + people);
                 for (int a = 0; a <= 79; a++)
                 {
                     for (int b = 0; b <= 39; b++)
@@ -196,7 +203,6 @@ namespace gameoflife
                 }
 
                 // FRAME ENDE
-
                 people = 0;
 
                 for (int y = 0; y <= 39; y++)
@@ -208,6 +214,8 @@ namespace gameoflife
                     }
 
                 }
+
+                Console.Title = "Bevölkerung: " + people;
                 if (people == 0)
                 {
                     Console.Clear();

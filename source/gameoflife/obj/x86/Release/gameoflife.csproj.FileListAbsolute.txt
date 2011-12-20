@@ -3,3 +3,7 @@ E:\gameoflife\gameoflife\bin\Release\gameoflife.pdb
 E:\gameoflife\gameoflife\obj\x86\Release\ResolveAssemblyReference.cache
 E:\gameoflife\gameoflife\obj\x86\Release\gameoflife.exe
 E:\gameoflife\gameoflife\obj\x86\Release\gameoflife.pdb
+E:\gameoflife\gameoflife\bin\Release\gameoflife.exe.manifest
+E:\gameoflife\gameoflife\bin\Release\gameoflife.application
+E:\gameoflife\gameoflife\obj\x86\Release\gameoflife.exe.manifest
+E:\gameoflife\gameoflife\obj\x86\Release\gameoflife.application

@@ -8,3 +8,7 @@ E:\gameoflife\gameoflife\obj\x86\Debug\gameoflife.pdb
 E:\gameoflife\gameoflife\bin\Debug\gameoflife.exe
 E:\gameoflife\gameoflife\bin\Debug\gameoflife.pdb
 E:\gameoflife\gameoflife\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\gameoflife\gameoflife\bin\Debug\gameoflife.exe.manifest
+E:\gameoflife\gameoflife\bin\Debug\gameoflife.application
+E:\gameoflife\gameoflife\obj\x86\Debug\gameoflife.exe.manifest
+E:\gameoflife\gameoflife\obj\x86\Debug\gameoflife.application
