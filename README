@@ -1,0 +1,11 @@
+######################
+#         Game       #
+#          of        #
+#         Life       #
+######################
+
+by Christoph Böhmwalder
+
+Eine C#-Konsolenversion von Conway's Game of Life
+
+http://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens
