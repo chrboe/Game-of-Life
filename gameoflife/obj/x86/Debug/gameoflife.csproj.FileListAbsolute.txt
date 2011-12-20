@@ -1,0 +1,10 @@
+c:\users\krems\documents\visual studio 2010\Projects\gameoflife\gameoflife\bin\Debug\gameoflife.exe
+c:\users\krems\documents\visual studio 2010\Projects\gameoflife\gameoflife\bin\Debug\gameoflife.pdb
+c:\users\krems\documents\visual studio 2010\Projects\gameoflife\gameoflife\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\krems\documents\visual studio 2010\Projects\gameoflife\gameoflife\obj\x86\Debug\gameoflife.exe
+c:\users\krems\documents\visual studio 2010\Projects\gameoflife\gameoflife\obj\x86\Debug\gameoflife.pdb
+E:\gameoflife\gameoflife\obj\x86\Debug\gameoflife.exe
+E:\gameoflife\gameoflife\obj\x86\Debug\gameoflife.pdb
+E:\gameoflife\gameoflife\bin\Debug\gameoflife.exe
+E:\gameoflife\gameoflife\bin\Debug\gameoflife.pdb
+E:\gameoflife\gameoflife\obj\x86\Debug\ResolveAssemblyReference.cache

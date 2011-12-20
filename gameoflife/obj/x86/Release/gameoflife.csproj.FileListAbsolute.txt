@@ -1,0 +1,5 @@
+E:\gameoflife\gameoflife\bin\Release\gameoflife.exe
+E:\gameoflife\gameoflife\bin\Release\gameoflife.pdb
+E:\gameoflife\gameoflife\obj\x86\Release\ResolveAssemblyReference.cache
+E:\gameoflife\gameoflife\obj\x86\Release\gameoflife.exe
+E:\gameoflife\gameoflife\obj\x86\Release\gameoflife.pdb
